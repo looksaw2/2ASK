@@ -1,0 +1,140 @@
+# Reading pref.tcl
+# do demo_ASK_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/modelsim/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/src {D:/quartus_ii/demo_ASK/src/ASK_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:54 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/src" D:/quartus_ii/demo_ASK/src/ASK_top.v 
+# -- Compiling module ASK_top
+# 
+# Top level modules:
+# 	ASK_top
+# End time: 22:23:54 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/src {D:/quartus_ii/demo_ASK/src/my_dac_bus.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:54 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/src" D:/quartus_ii/demo_ASK/src/my_dac_bus.v 
+# -- Compiling module my_dac_bus
+# 
+# Top level modules:
+# 	my_dac_bus
+# End time: 22:23:54 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/src {D:/quartus_ii/demo_ASK/src/switch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/src" D:/quartus_ii/demo_ASK/src/switch.v 
+# -- Compiling module switch
+# 
+# Top level modules:
+# 	switch
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/src {D:/quartus_ii/demo_ASK/src/m_seq_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/src" D:/quartus_ii/demo_ASK/src/m_seq_gen.v 
+# -- Compiling module m_seq_gen
+# 
+# Top level modules:
+# 	m_seq_gen
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/ip {D:/quartus_ii/demo_ASK/ip/PLL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/ip" D:/quartus_ii/demo_ASK/ip/PLL.v 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/ip {D:/quartus_ii/demo_ASK/ip/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/ip" D:/quartus_ii/demo_ASK/ip/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/ip {D:/quartus_ii/demo_ASK/ip/Counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/ip" D:/quartus_ii/demo_ASK/ip/Counter.v 
+# -- Compiling module Counter
+# 
+# Top level modules:
+# 	Counter
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/db {D:/quartus_ii/demo_ASK/db/pll_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/db" D:/quartus_ii/demo_ASK/db/pll_altpll.v 
+# -- Compiling module PLL_altpll
+# 
+# Top level modules:
+# 	PLL_altpll
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/src {D:/quartus_ii/demo_ASK/src/ASK_top_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:55 on Nov 13,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/quartus_ii/demo_ASK/src" D:/quartus_ii/demo_ASK/src/ASK_top_tb.v 
+# -- Compiling module ASK_top_tb
+# 
+# Top level modules:
+# 	ASK_top_tb
+# End time: 22:23:55 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  ASK_top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" ASK_top_tb 
+# Start time: 22:23:55 on Nov 13,2022
+# Loading work.ASK_top_tb
+# Loading work.ASK_top
+# Loading work.PLL
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.Counter
+# Loading lpm_ver.lpm_counter
+# Loading work.ROM
+# Loading altera_mf_ver.altsyncram
+# Loading work.m_seq_gen
+# Loading work.switch
+# Loading work.my_dac_bus
+# Loading altera_mf_ver.MF_cycloneiiigl_pll
+# Loading altera_mf_ver.MF_cycloneiiigl_m_cntr
+# Loading altera_mf_ver.MF_cycloneiiigl_n_cntr
+# Loading altera_mf_ver.cycloneiiigl_post_divider
+# Loading altera_mf_ver.MF_cycloneiiigl_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'rst_n'. The port definition is at: D:/quartus_ii/demo_ASK/src/m_seq_gen.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /ASK_top_tb/my_ASK_top/my_m_seq File: D:/quartus_ii/demo_ASK/src/ASK_top.v Line: 29
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV GX PLL locked to incoming clock
+# Time: 136000  Instance: ASK_top_tb.my_ASK_top.my_PLL.altpll_component.cycloneiv_pll.pll4
+# End time: 22:24:47 on Nov 13,2022, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 1

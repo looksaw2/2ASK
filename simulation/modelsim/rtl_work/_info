@@ -1,0 +1,233 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/quartus_ii/demo_ASK/simulation/modelsim
+vASK_top
+Z1 !s110 1668349434
+!i10b 1
+!s100 UfM4aaceiZSz15eL7KR200
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:PJi<6<fkGkVLT0moG><h3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1667916027
+8D:/quartus_ii/demo_ASK/src/ASK_top.v
+FD:/quartus_ii/demo_ASK/src/ASK_top.v
+!i122 0
+L0 1 47
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1668349434.000000
+!s107 D:/quartus_ii/demo_ASK/src/ASK_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/src|D:/quartus_ii/demo_ASK/src/ASK_top.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/src
+Z8 tCvgOpt 0
+n@a@s@k_top
+vASK_top_tb
+Z9 !s110 1668349435
+!i10b 1
+!s100 ]kHo<Q2<zN0<:7aUc7?Yc2
+R2
+IRRQT2`Ze9V4HlYhU7?Yne0
+R3
+R0
+w1667884052
+8D:/quartus_ii/demo_ASK/src/ASK_top_tb.v
+FD:/quartus_ii/demo_ASK/src/ASK_top_tb.v
+!i122 8
+L0 4 19
+R4
+r1
+!s85 0
+31
+Z10 !s108 1668349435.000000
+!s107 D:/quartus_ii/demo_ASK/src/ASK_top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/src|D:/quartus_ii/demo_ASK/src/ASK_top_tb.v|
+!i113 1
+R6
+R7
+R8
+n@a@s@k_top_tb
+vCounter
+R9
+!i10b 1
+!s100 zgAXXgGCSUR[RYlch75L83
+R2
+IhkVR19J[?@zcAa@Y^oTFW3
+R3
+R0
+w1667915977
+8D:/quartus_ii/demo_ASK/ip/Counter.v
+FD:/quartus_ii/demo_ASK/ip/Counter.v
+!i122 6
+L0 40 34
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/quartus_ii/demo_ASK/ip/Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/ip|D:/quartus_ii/demo_ASK/ip/Counter.v|
+!i113 1
+R6
+Z11 !s92 -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/ip
+R8
+n@counter
+vm_seq_gen
+R9
+!i10b 1
+!s100 ]0BN]YmZ[HXN^5[QnS]HP1
+R2
+IHHdIl^X[GeQC;<kj]EWh23
+R3
+R0
+w1667883236
+8D:/quartus_ii/demo_ASK/src/m_seq_gen.v
+FD:/quartus_ii/demo_ASK/src/m_seq_gen.v
+!i122 3
+L0 5 27
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/quartus_ii/demo_ASK/src/m_seq_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/src|D:/quartus_ii/demo_ASK/src/m_seq_gen.v|
+!i113 1
+R6
+R7
+R8
+vmy_dac_bus
+R1
+!i10b 1
+!s100 8AcWZCkcQVLz3Fzm_;0M^2
+R2
+I[<T9kFG``O8N9g55U6TmG1
+R3
+R0
+w1667882438
+8D:/quartus_ii/demo_ASK/src/my_dac_bus.v
+FD:/quartus_ii/demo_ASK/src/my_dac_bus.v
+!i122 1
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/quartus_ii/demo_ASK/src/my_dac_bus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/src|D:/quartus_ii/demo_ASK/src/my_dac_bus.v|
+!i113 1
+R6
+R7
+R8
+vPLL
+R9
+!i10b 1
+!s100 TZmaSKBMa[ZN?<HOmcYmQ3
+R2
+I]ofjJg^=icZ?OSa4EIODU2
+R3
+R0
+w1667915972
+8D:/quartus_ii/demo_ASK/ip/PLL.v
+FD:/quartus_ii/demo_ASK/ip/PLL.v
+!i122 4
+L0 40 118
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/quartus_ii/demo_ASK/ip/PLL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/ip|D:/quartus_ii/demo_ASK/ip/PLL.v|
+!i113 1
+R6
+R11
+R8
+n@p@l@l
+vPLL_altpll
+R9
+!i10b 1
+!s100 X8kmiM`_<X3VXKzzGYc3b0
+R2
+I[K1Cgc5UQf=h`jPKlQ2do3
+R3
+R0
+w1667916044
+8D:/quartus_ii/demo_ASK/db/pll_altpll.v
+FD:/quartus_ii/demo_ASK/db/pll_altpll.v
+!i122 7
+L0 30 69
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/quartus_ii/demo_ASK/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/db|D:/quartus_ii/demo_ASK/db/pll_altpll.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+D:/quartus_ii/demo_ASK/db
+R8
+n@p@l@l_altpll
+vROM
+R9
+!i10b 1
+!s100 TWm=bl0h7iXn@bjQ=k7Ro1
+R2
+IzoLiM_z5FTz27Oa^Ve3ea2
+R3
+R0
+w1667915984
+8D:/quartus_ii/demo_ASK/ip/ROM.v
+FD:/quartus_ii/demo_ASK/ip/ROM.v
+!i122 5
+L0 40 61
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/quartus_ii/demo_ASK/ip/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/ip|D:/quartus_ii/demo_ASK/ip/ROM.v|
+!i113 1
+R6
+R11
+R8
+n@r@o@m
+vswitch
+R9
+!i10b 1
+!s100 ^1kUUaV8V^`hhAYeIM0630
+R2
+Iaomo=G:CW]:Yl2?OUWBI33
+R3
+R0
+w1667916332
+8D:/quartus_ii/demo_ASK/src/switch.v
+FD:/quartus_ii/demo_ASK/src/switch.v
+!i122 2
+L0 1 18
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/quartus_ii/demo_ASK/src/switch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus_ii/demo_ASK/src|D:/quartus_ii/demo_ASK/src/switch.v|
+!i113 1
+R6
+R7
+R8
